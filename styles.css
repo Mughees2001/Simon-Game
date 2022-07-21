@@ -78,14 +78,16 @@ body {
     .btn{
       width:700px;
       padding:20px;
-      margin:70px 0;
+      margin:12px 0;
+      height:180px;
     }
     #level-title{
-      margin:  5%;
-      height:200px;
+      margin:  4%;
+      height:150px;
       padding-top:60px;
       width:90%;
       text-align: center;
     }
+  
 }
 

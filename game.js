@@ -1,7 +1,7 @@
 
     //Checking if we are on Mobile Device or on a Laptop
     if ($(window).width() <= 1000){
-        $('h1').text("Tap on Button to Start the Game"); 
+        $('h1').text("Tap here! Lets Play!"); 
         $('h1').css("border-style","solid");
         $('h1').css("background-color","orange");
         $('h1').on("click",function(){
@@ -69,7 +69,7 @@
                 $("body").removeClass("game-over")
             },200);
             if ($(window).width() <= 1000){
-                $("h1").text("Game Over,Press the button to restart");
+                $("h1").text("Game Over,Press here to restart!");
                 $('h1').css("border-style","solid");
                 $('h1').css("background-color","orange");
             }
